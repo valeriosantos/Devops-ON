@@ -23,7 +23,7 @@
       name: jacoco-report
       path: target/site/jacoco/
   
-  code-analisys:
+code-analisys:
   runs-on: ubuntu-latest
   
   steps:
