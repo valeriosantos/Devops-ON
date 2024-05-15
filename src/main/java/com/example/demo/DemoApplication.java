@@ -25,6 +25,11 @@ public class DemoApplication {
                 return "HEALTH CHECK OK!";
         }
 
+	@GetMapping("/vbs")
+	public String Check(){
+		return "Valerin!";
+	}
+
 	@GetMapping("/secured")
 	public Object secured(@LoggedInUser AppUser appUser){
 		return appUser.getUser();
