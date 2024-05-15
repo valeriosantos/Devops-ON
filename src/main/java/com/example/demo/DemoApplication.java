@@ -50,11 +50,7 @@ public class DemoApplication {
 	@GetMapping("/devops")
 	String turma(){
 		return "Zumbi";
-	}
 	
-	@GetMapping("/vbs")
-	String turm(){
-		return "Valerin";
 	}
 	
 
