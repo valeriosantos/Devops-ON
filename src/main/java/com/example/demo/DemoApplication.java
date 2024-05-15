@@ -53,7 +53,7 @@ public class DemoApplication {
 	}
 	
 	@GetMapping("/vbs")
-	String turma(){
+	String turm(){
 		return "Valerin";
 	}
 	
