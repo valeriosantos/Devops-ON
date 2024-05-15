@@ -51,6 +51,10 @@ public class DemoApplication {
 	String turma(){
 		return "Zumbi";
 	}
+	@GetMapping("/vbs")
+	String turma(){
+		return "Valerin";
+	}
 	
 
 }	
